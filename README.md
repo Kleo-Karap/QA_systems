@@ -19,4 +19,4 @@ Evaluation on the official dev set with typical QA metrics: [Exact Match](https:
 - Increase the window size between k-value of shots (e.g 10-20-30) to check for bigger differences in evaluation metrics
 - Instead of random sampling, use k-demonstrations of one single Wikipedia article (e.g Super Bowl, Nikola_Tesla or any other specific document) in order to if the model learns more patterns in one specific document and learns to discern 
   pattterns based on the posed quedstion. (Pay Attention to overfitting!)
-- Try larger versions of Flan T5 or any other LLM (e.g a decoder only model like BART)  
+- Try larger versions of Flan T5 or any other LLM (e.g a decoder only model like GPT-2)  
